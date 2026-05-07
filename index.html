@@ -16,7 +16,18 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/yis-top-notch-site-1f093b.webflow.css" rel="stylesheet" type="text/css">
-  <style>html.w-mod-js:not(.w-mod-ix3) :is(.animation-title, .about-h2) {visibility: hidden !important;}</style>
+  <style>html.w-mod-js:not(.w-mod-ix3) :is(.animation-title, .about-h2) {visibility: hidden !important;}
+    /* 经历部分图片黑白效果 */
+    .service-item-img-3 {
+      filter: grayscale(100%) !important;
+      -webkit-filter: grayscale(100%) !important;
+      transition: filter 0.4s ease, -webkit-filter 0.4s ease !important;
+    }
+    .service-bottom-item-01-2:hover .service-item-right-content-wrap-4 .service-item-img-3,
+    .service-item-right-content-wrap-4:hover .service-item-img-3 {
+      filter: grayscale(0%) !important;
+      -webkit-filter: grayscale(0%) !important;
+    }</style>
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -231,19 +242,19 @@
               <div data-w-id="13db6992-d3af-06fd-12a3-acc81337a224" style="opacity:0">
                 <div class="service-right-content-box">
                   <div class="service-right-text-box-01">
-                    <div class="service-right-text">vibe coding</div>
+                    <div class="service-right-text">Vibe coding</div>
                   </div>
                   <div class="service-right-text-box-02">
-                    <div class="service-right-text">CLAude code + figma mcp</div>
+                    <div class="service-right-text">Claude code + Figma mcp</div>
                   </div>
                   <div data-w-id="7ca9b13e-b13a-46ee-fea5-d76bfb17f139" style="opacity:0" class="service-content-box-wrap">
-                    <div class="service-t">Stable Diffusion</div>
+                    <div class="service-t">Stable diffusion</div>
                   </div>
                   <div data-w-id="5e9dd3fc-d636-8aca-930a-ef62410807fd" style="opacity:0" class="service-content-box-wrap">
                     <div class="service-t">Lovart</div>
                   </div>
                   <div data-w-id="494d74b5-d992-3833-b673-4349216c33fc" style="opacity:0" class="service-content-box-wrap">
-                    <div class="service-t">liblib</div>
+                    <div class="service-t">Liblib</div>
                   </div>
                 </div>
               </div>
@@ -251,19 +262,19 @@
             <div data-w-id="83ea1f19-28e7-2ce9-1b93-142c5df9b06a" style="opacity:0">
               <div class="service-right-content-box">
                 <div class="service-right-text-box-01">
-                  <div class="service-right-text">Figma/ sketch</div>
+                  <div class="service-right-text">Figma / Sketch</div>
                 </div>
                 <div class="service-right-text-box-01">
-                  <div class="service-right-text">phtotshop</div>
+                  <div class="service-right-text">Photoshop</div>
                 </div>
                 <div class="service-right-text-box-02">
                   <div class="service-right-text">Illustrator</div>
                 </div>
                 <div data-w-id="83ea1f19-28e7-2ce9-1b93-142c5df9b074" style="opacity:0" class="service-content-box-wrap">
-                  <div class="service-t">After Effects</div>
+                  <div class="service-t">After effects</div>
                 </div>
                 <div data-w-id="83ea1f19-28e7-2ce9-1b93-142c5df9b077" style="opacity:0" class="service-content-box-wrap">
-                  <div class="service-t">C4D</div>
+                  <div class="service-t">C4d</div>
                 </div>
               </div>
             </div>
@@ -377,150 +388,219 @@
             <div class="slide-nav w-slider-nav w-round"></div>
           </div>
         </div>
-        <div class="service-bottom-item-01-2">
-          <div class="service-item-left-content-wrap-3">
-            <div data-w-id="e7b22340-298b-d316-b0b7-6cf699d9a44d" style="opacity:0" class="service-left-content-3">
-              <div class="service-left-t-2">01</div>
-            </div>
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-title-wrap">
-                <p class="released-2">2023.12-2024.02</p>
-              </div>
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">芒果TV <br>UI设计</h3>
-                <ul role="list" class="dashboard-list-wrap"></ul>
-              </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+        <!-- Experience Section with Service Component Style -->
+        <div class="service-component">
+          <!-- Experience 01: Mango TV -->
+          <div data-w-id="exp-01" class="service-content-wrapper">
+            <div class="service-image-absolute right">
+              <div class="service-image-wrapper">
+                <img sizes="(max-width: 1279px) 100vw, 320px" srcset="images/exp-01-mango.png 500w, images/exp-01-mango.png 800w" alt="Mango TV UI Design" src="images/exp-01-mango.png" loading="lazy" class="service-image">
               </div>
             </div>
-          </div>
-          <div class="service-item-right-content-wrap-4"><img src="images/芒果.png" loading="lazy" style="opacity:0" data-w-id="e7b22340-298b-d316-b0b7-6cf699d9a455" alt="" class="service-item-img-3">
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">What did I do?</h3>
-                <ul role="list" class="dashboard-list-wrap">
-                  <li class="dashboard-list-2">
-                    <p class="released-2">十余个重点节目资源位、H5与页面设计均上线APP</p>
-                  </li>
-                  <li class="dashboard-list-2">
-                    <p class="released-2">参与跨年演唱会项目的设计，驯化AIGC模型，成果落地晚会现场</p>
-                  </li>
-                </ul>
+            <div class="service-content-block">
+              <div class="service-top-content">
+                <div class="service-title-wrap">
+                  <div class="service-title-item z-index-3">
+                    <div class="service-title">MANGO TV-UI</div>
+                    <div class="service-title alternate">MANGO TV-UI</div>
+                    <div class="service-number-wrap">
+                      <div class="service-number">01</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+              <div style="height:0px" class="service-description-item">
+                <p class="service-date-tag">2023.12 - 2024.02</p>
+                <p class="service-description">芒果TV UI设计实习生，负责重点节目资源位及H5页面设计工作。</p>
+                <div class="w-layout-grid service-feature-grid">
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">芒果APP收银台改版</div>
+                    <div class="service-feature-text">会员增长设计</div>
+                  </div>
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">10余个项目资源位H5设计</div>
+                    <div class="service-feature-text">AIGC辅助跨年演唱会设计</div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="service-bottom-item-01-2">
-          <div class="service-item-left-content-wrap-3">
-            <div data-w-id="6b15f10f-c635-4da1-1160-e8adbe2eafdb" style="opacity:0" class="service-left-content-3">
-              <div class="service-left-t-2">02</div>
-            </div>
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-title-wrap">
-                <p class="released-2">毕业设计</p>
-              </div>
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">情感化Agent<br>人机关系<br>驱动机制研究</h3>
-                <ul role="list" class="dashboard-list-wrap"></ul>
-              </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+            <div class="service-arrow-wrap">
+              <div class="service-arrow w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor">
+                  <path d="M13.0001 16.1716L18.3641 10.8076L19.7783 12.2218L12.0001 20L4.22192 12.2218L5.63614 10.8076L11.0001 16.1716V4H13.0001V16.1716Z"></path>
+                </svg>
               </div>
             </div>
           </div>
-          <div class="service-item-right-content-wrap-4"><img class="service-item-img-3" src="images/人机.png" alt="" style="opacity:0" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px" data-w-id="6b15f10f-c635-4da1-1160-e8adbe2eafe9" loading="lazy" srcset="images/人机-p-500.png 500w, images/人机-p-800.png 800w, images/人机-p-1080.png 1080w, images/人机.png 1920w">
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">What did I do?</h3>
-                <ul role="list" class="dashboard-list-wrap">
-                  <li class="dashboard-list-2">
-                    <p class="released-2">范式定义→多维用户研究→结构方程模型量化验证→设计策略转化</p>
-                  </li>
-                  <li class="dashboard-list-2">
-                    <p class="released-2">评估用户对 AI Agent 情感依赖与信任水平的量化工具</p>
-                  </li>
-                </ul>
+
+          <!-- Experience 02: Agent Research -->
+          <div data-w-id="exp-02" class="service-content-wrapper">
+            <div class="service-image-absolute right">
+              <div class="service-image-wrapper">
+                <img sizes="(max-width: 1279px) 100vw, 320px" srcset="images/exp-02-agent.png 500w, images/exp-02-agent.png 800w" alt="Agent Research" src="images/exp-02-agent.png" loading="lazy" class="service-image">
               </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+            </div>
+            <div class="service-content-block">
+              <div class="service-top-content">
+                <div class="service-title-wrap">
+                  <div class="service-title-item z-index-3">
+                    <div class="service-title">Agent Research</div>
+                    <div class="service-title alternate">Agent Research</div>
+                    <div class="service-number-wrap">
+                      <div class="service-number">02</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="height:0px" class="service-description-item">
+                <p class="service-date-tag">毕业设计</p>
+                <p class="service-description">情感化Agent人机关系驱动机制研究，探索用户与AI Agent之间的情感连接。</p>
+                <div class="w-layout-grid service-feature-grid">
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">范式定义</div>
+                    <div class="service-feature-text">多维度用户研究</div>
+                  </div>
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">SEM定量验证</div>
+                    <div class="service-feature-text">设计策略转化</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-arrow-wrap">
+              <div class="service-arrow w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor">
+                  <path d="M13.0001 16.1716L18.3641 10.8076L19.7783 12.2218L12.0001 20L4.22192 12.2218L5.63614 10.8076L11.0001 16.1716V4H13.0001V16.1716Z"></path>
+                </svg>
               </div>
             </div>
           </div>
-        </div>
-        <div class="service-bottom-item-01-2">
-          <div class="service-item-left-content-wrap-3">
-            <div data-w-id="1f988358-a1be-7d68-3ce8-e5ff6930502a" style="opacity:0" class="service-left-content-3">
-              <div class="service-left-t-2">03</div>
-            </div>
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-title-wrap">
-                <p class="released-2">2024.12-2025.12</p>
-              </div>
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">小天鹅洗衣机<br>TFT界面设计</h3>
-                <ul role="list" class="dashboard-list-wrap"></ul>
-              </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+
+          <!-- Experience 03: CSSCI-UR -->
+          <div data-w-id="exp-03" class="service-content-wrapper">
+            <div class="service-image-absolute right">
+              <div class="service-image-wrapper">
+                <img sizes="(max-width: 1279px) 100vw, 320px" srcset="images/exp-03-cssci.png 500w, images/exp-03-cssci.png 800w" alt="CSSCI Paper" src="images/exp-03-cssci.png" loading="lazy" class="service-image">
               </div>
             </div>
-          </div>
-          <div class="service-item-right-content-wrap-4"><img class="service-item-img-3" src="images/美洲用户访谈总结报告-5人_03.png" alt="" style="opacity:0" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px" data-w-id="1f988358-a1be-7d68-3ce8-e5ff6930503a" loading="lazy" srcset="images/美洲用户访谈总结报告-5人_03-p-500.png 500w, images/美洲用户访谈总结报告-5人_03-p-800.png 800w, images/美洲用户访谈总结报告-5人_03-p-1080.png 1080w, images/美洲用户访谈总结报告-5人_03-p-1600.png 1600w, images/美洲用户访谈总结报告-5人_03-p-2000.png 2000w, images/美洲用户访谈总结报告-5人_03-p-2600.png 2600w, images/美洲用户访谈总结报告-5人_03-p-3200.png 3200w, images/美洲用户访谈总结报告-5人_03.png 7680w">
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">What did I do?</h3>
-                <ul role="list" class="dashboard-list-wrap">
-                  <li class="dashboard-list-2">
-                    <p class="released-2">完成11位跨国用户深访，输出349页研究报告</p>
-                  </li>
-                  <li class="dashboard-list-2">
-                    <p class="released-2">推导9套高低保真设计方案并经由美方用户测试多轮迭代</p>
-                  </li>
-                </ul>
+            <div class="service-content-block">
+              <div class="service-top-content">
+                <div class="service-title-wrap">
+                  <div class="service-title-item z-index-3">
+                    <div class="service-title">CSSCI-UR</div>
+                    <div class="service-title alternate">CSSCI-UR</div>
+                    <div class="service-number-wrap">
+                      <div class="service-number">03</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+              <div style="height:0px" class="service-description-item">
+                <p class="service-date-tag">CSSCI期刊论文</p>
+                <p class="service-description">论文《从微观行为证据到宏观语境信号：工业设计中用户研究的两类设计转译路径》，发表于《装饰》期刊。</p>
+                <div class="w-layout-grid service-feature-grid">
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">国际化视角系统总结</div>
+                    <div class="service-feature-text">行为证据→设计策略转译</div>
+                  </div>
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">宏观语境→设计策略转译</div>
+                    <div class="service-feature-text">覆盖体验优化与前瞻定义场景</div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="service-bottom-item-01-2">
-          <div class="service-item-left-content-wrap-3">
-            <div data-w-id="546c8ef7-9c53-0602-cacc-e15561b9be77" style="opacity:0" class="service-left-content-3">
-              <div class="service-left-t-2">04</div>
-            </div>
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-title-wrap">
-                <p class="released-2">2025.03-2025.08</p>
-              </div>
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">奥迪AUDI<br>智能座舱设计</h3>
-                <ul role="list" class="dashboard-list-wrap"></ul>
-              </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+            <div class="service-arrow-wrap">
+              <div class="service-arrow w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor">
+                  <path d="M13.0001 16.1716L18.3641 10.8076L19.7783 12.2218L12.0001 20L4.22192 12.2218L5.63614 10.8076L11.0001 16.1716V4H13.0001V16.1716Z"></path>
+                </svg>
               </div>
             </div>
           </div>
-          <div class="service-item-right-content-wrap-4"><img class="service-item-img-3" src="images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01.png" alt="" style="opacity:0" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px" data-w-id="546c8ef7-9c53-0602-cacc-e15561b9be87" loading="lazy" srcset="images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01-p-500.png 500w, images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01-p-800.png 800w, images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01-p-1080.png 1080w, images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01-p-1600.png 1600w, images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01-p-2000.png 2000w, images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01-p-2600.png 2600w, images/4-20250628AUDI-未来的“年轻-科技-豪华”诠释_01.png 5760w">
-            <div class="change-log-contact-wrap-2">
-              <div class="change-log-contact-box">
-                <h3 class="dashboard-title-2">What did I do?</h3>
-                <ul role="list" class="dashboard-list-wrap">
-                  <li class="dashboard-list-2">
-                    <p class="released-2">运用KANO模型输出用户量表与偏好总结</p>
-                  </li>
-                  <li class="dashboard-list-2">
-                    <p class="released-2">产出前沿座椅及滑轨概念方案</p>
-                  </li>
-                </ul>
+
+          <!-- Experience 04: Little Swan -->
+          <div data-w-id="exp-04" class="service-content-wrapper">
+            <div class="service-image-absolute right">
+              <div class="service-image-wrapper">
+                <img sizes="(max-width: 1279px) 100vw, 320px" srcset="images/exp-04-swan.png 500w, images/exp-04-swan.png 800w" alt="Little Swan TFT Design" src="images/exp-04-swan.png" loading="lazy" class="service-image">
               </div>
-              <div class="change-log-contact-box">
-                <ul role="list" class="dashboard-list-wrap"></ul>
+            </div>
+            <div class="service-content-block">
+              <div class="service-top-content">
+                <div class="service-title-wrap">
+                  <div class="service-title-item z-index-3">
+                    <div class="service-title">LITTLE SWAN-UI</div>
+                    <div class="service-title alternate">LITTLE SWAN-UI</div>
+                    <div class="service-number-wrap">
+                      <div class="service-number">04</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="height:0px" class="service-description-item">
+                <p class="service-date-tag">2024.12 - 2025.12</p>
+                <p class="service-description">洗衣机TFT界面设计，面向海外用户的界面设计研究与实践。</p>
+                <div class="w-layout-grid service-feature-grid">
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">11场跨境用户访谈</div>
+                    <div class="service-feature-text">349页研究报告</div>
+                  </div>
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">9套设计方案</div>
+                    <div class="service-feature-text">多轮用户测试</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-arrow-wrap">
+              <div class="service-arrow w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor">
+                  <path d="M13.0001 16.1716L18.3641 10.8076L19.7783 12.2218L12.0001 20L4.22192 12.2218L5.63614 10.8076L11.0001 16.1716V4H13.0001V16.1716Z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 05: Audi -->
+          <div data-w-id="exp-05" class="service-content-wrapper">
+            <div class="service-image-absolute right">
+              <div class="service-image-wrapper">
+                <img sizes="(max-width: 1279px) 100vw, 320px" srcset="images/exp-05-audi.png 500w, images/exp-05-audi.png 800w" alt="Audi Smart Cockpit" src="images/exp-05-audi.png" loading="lazy" class="service-image">
+              </div>
+            </div>
+            <div class="service-content-block">
+              <div class="service-top-content">
+                <div class="service-title-wrap">
+                  <div class="service-title-item z-index-3">
+                    <div class="service-title">AUDI-UX</div>
+                    <div class="service-title alternate">AUDI-UX</div>
+                    <div class="service-number-wrap">
+                      <div class="service-number">05</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="height:0px" class="service-description-item">
+                <p class="service-date-tag">2025.03 - 2025.08</p>
+                <p class="service-description">奥迪智能座舱设计项目，探索未来豪华车型座椅与导轨概念解决方案。</p>
+                <div class="w-layout-grid service-feature-grid">
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">KANO模型用户量表</div>
+                    <div class="service-feature-text">用户偏好总结</div>
+                  </div>
+                  <div class="service-feature-item">
+                    <div class="service-feature-text">座椅概念设计</div>
+                    <div class="service-feature-text">导轨概念方案</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-arrow-wrap">
+              <div class="service-arrow w-embed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor">
+                  <path d="M13.0001 16.1716L18.3641 10.8076L19.7783 12.2218L12.0001 20L4.22192 12.2218L5.63614 10.8076L11.0001 16.1716V4H13.0001V16.1716Z"></path>
+                </svg>
               </div>
             </div>
           </div>
@@ -542,8 +622,8 @@
                 <h2 data-w-id="b6fb442f-484f-938b-4d25-f6b51f73d5a1" style="opacity:0" class="project-left-title">SHOWCASE MY PROFESSIONAL SKILLS AND CREATIVITY.</h2>
               </div>
               <div class="project-bottom-item-wrap">
-                <div data-w-id="b1891a5e-ef7f-1db9-65fd-b2955038f3cd" style="opacity:0" class="project-left-bottom-content-wrap">
-                  <a href="ku-tu.html" target="_blank" class="link-block w-inline-block"><img src="images/酷我.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 886px) 95vw, 842px" srcset="images/酷我-p-500.png 500w, images/酷我.png 842w" alt="" id="kutu" class="project-img-two"></a>
+                <div id="project-kutu" data-w-id="b1891a5e-ef7f-1db9-65fd-b2955038f3cd" style="opacity:0" class="project-left-bottom-content-wrap">
+                  <a href="ku-tu.html" class="link-block w-inline-block"><img src="images/酷我.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 886px) 95vw, 842px" srcset="images/酷我-p-500.png 500w, images/酷我.png 842w" alt="" id="kutu" class="project-img-two"></a>
                   <div class="project-left-bottom-content">
                     <h3 class="product-bottom-h3">Upgrade of the IP Character of kuwo Music Brand</h3>
                     <p class="project-paragraph">酷兔——酷我音乐品牌IP形象升级</p>
@@ -556,8 +636,8 @@
                     <p class="project-paragraph"><strong>CSSCI《装饰》</strong>期刊<strong>用户研究</strong>论文发表<br>《从微观行为证据到宏观语境信号:工业设计中用户研究的两类设计转译路径》</p>
                   </div>
                 </div>
-                <div data-w-id="6b5a46ea-b210-bcf2-dbc5-f8a0169b012f" style="opacity:0" class="project-left-bottom-content-wrap-02">
-                  <a href="bei-yong-2.html" target="_blank" class="w-inline-block"><img src="images/人机.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px" srcset="images/人机-p-500.png 500w, images/人机-p-800.png 800w, images/人机-p-1080.png 1080w, images/人机.png 1920w" alt="" class="project-img-four"></a>
+                <div id="project-agent" data-w-id="6b5a46ea-b210-bcf2-dbc5-f8a0169b012f" style="opacity:0" class="project-left-bottom-content-wrap-02">
+                  <a href="bei-yong-2.html" class="w-inline-block"><img src="images/人机.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px" srcset="images/人机-p-500.png 500w, images/人机-p-800.png 800w, images/人机-p-1080.png 1080w, images/人机.png 1920w" alt="" class="project-img-four"></a>
                   <div class="project-left-bottom-content">
                     <h3 class="product-bottom-h3">Research on Agent-Human Relationship</h3>
                     <p class="project-paragraph">智能座舱情感化Agent人机关系驱动机制研究</p>
@@ -566,32 +646,32 @@
               </div>
             </div>
             <div class="project-right-content-wrap">
-              <div data-w-id="ed256854-ff4c-90d5-ad79-998a9ffd1af9" style="opacity:0" class="project-right-bottom-content-wrap-02">
-                <a id="pr_red" href="xiao-hong-shu.html" target="_blank" class="w-inline-block"><img src="images/小红书.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 886px) 95vw, 842px" srcset="images/小红书-p-500.png 500w, images/小红书.png 842w" alt="" class="image-2"></a>
+              <div id="project-xiaohongshu" data-w-id="ed256854-ff4c-90d5-ad79-998a9ffd1af9" style="opacity:0" class="project-right-bottom-content-wrap-02">
+                <a href="xiao-hong-shu.html" class="w-inline-block"><img src="images/小红书.png" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 886px) 95vw, 842px" srcset="images/小红书-p-500.png 500w, images/小红书.png 842w" alt="" class="image-2"></a>
                 <div class="project-left-bottom-content">
                   <h3 class="product-bottom-h3">the search experience for travel scenarios on redbook has been upgraded</h3>
                   <p class="project-paragraph">小红书&lt;旅行场景&gt;搜索体验升级</p>
                 </div>
               </div>
-              <div data-w-id="331a7aa1-4111-4ed8-2a87-df123f1e5ed1" style="opacity:0" class="project-right-bottom-content-wrap-03">
-                <a href="yun-ying-yu-fu-wu.html" target="_blank" class="w-inline-block"><img src="images/线下-会员大屏海报.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 973px) 95vw, 925px" srcset="images/线下-会员大屏海报-p-500.jpg 500w, images/线下-会员大屏海报-p-800.jpg 800w, images/线下-会员大屏海报.jpg 925w" alt="" class="project-img-three"></a>
+              <div id="project-mango" data-w-id="331a7aa1-4111-4ed8-2a87-df123f1e5ed1" style="opacity:0" class="project-right-bottom-content-wrap-03">
+                <a href="yun-ying-yu-fu-wu.html" class="w-inline-block"><img src="images/线下-会员大屏海报.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 973px) 95vw, 925px" srcset="images/线下-会员大屏海报-p-500.jpg 500w, images/线下-会员大屏海报-p-800.jpg 800w, images/线下-会员大屏海报.jpg 925w" alt="" class="project-img-three"></a>
                 <div class="project-left-bottom-content">
                   <h3 class="product-bottom-h3">Mango Member Day Operation Design</h3>
                   <p class="project-paragraph">芒果会员日运营设计</p>
                 </div>
               </div>
-              <div data-w-id="2a983243-bc24-b95a-d41a-d66aab775192" style="opacity:0" class="project-right-bottom-content-wrap-02">
-                <a href="bei-yong-1.html" target="_blank" class="w-inline-block"><img src="images/水滴商店.png" loading="lazy" alt="" class="project-img-four"></a>
+              <div id="project-waterdrop" data-w-id="2a983243-bc24-b95a-d41a-d66aab775192" style="opacity:0" class="project-right-bottom-content-wrap-02">
+                <a href="bei-yong-1.html" class="w-inline-block"><img src="images/水滴商店.png" loading="lazy" alt="" class="project-img-four"></a>
                 <div class="project-left-bottom-content">
                   <h3 class="product-bottom-h3">Water Drop Store Service Design</h3>
                   <p class="project-paragraph">水滴商店服务设计</p>
                 </div>
               </div>
-              <div data-w-id="4dae6365-bab9-4d4d-ffc7-180a5a1005f6" style="opacity:0" class="project-right-bottom-content-wrap-03">
-                <a href="bei-yong-3.html" class="w-inline-block"><img src="images/交互流程指南1.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 923px) 95vw, 877px" srcset="images/交互流程指南1-p-500.jpg 500w, images/交互流程指南1-p-800.jpg 800w, images/交互流程指南1.jpg 877w" alt="" class="project-img-three"></a>
+              <div id="project-guide" data-w-id="4dae6365-bab9-4d4d-ffc7-180a5a1005f6" style="opacity:0" class="project-right-bottom-content-wrap-03">
+                <a href="https://icon-assistant.vercel.app/" target="_blank" class="w-inline-block"><img src="images/icon-generator.png" loading="lazy" alt="Vibe Coding: Pinch Icon - Generator" class="project-img-three"></a>
                 <div class="project-left-bottom-content">
-                  <h3 class="product-bottom-h3">TELL THE AI WHAT YOU SEE, SHARE NEW WORDS AND POEMS, AND INTERACT WITH IT</h3>
-                  <p class="project-paragraph">软硬件联动：把所见之景告诉AI，生词诗词并与之交互</p>
+                  <h3 class="product-bottom-h3">Vibe Coding: Pinch Icon - Generator</h3>
+                  <p class="project-paragraph">Vibe Coding：捏捏Icon-图标生成器</p>
                 </div>
               </div>
             </div>
@@ -646,7 +726,7 @@
                 <div class="project-content-wrap">
                   <div class="project-item">
                     <h2 data-w-id="483dd752-0c64-1ea0-5996-7ce8af716b5e" style="opacity:0" class="project-bottom-h2">10+</h2>
-                    <div data-w-id="4310f68f-2b64-c12f-0d87-e07a0f75d040" style="opacity:0" class="project-bottom-t">真实项目经历/个</div>
+                    <div data-w-id="4310f68f-2b64-c12f-0d87-e07a0f75d040" style="opacity:0" class="project-bottom-t">真实项目<br>经历/个</div>
                   </div>
                   <div class="project-item">
                     <h2 data-w-id="fe2695e6-2136-9545-d397-f0f3c39e70e6" style="opacity:0" class="project-bottom-h2">100%</h2>
@@ -654,11 +734,11 @@
                   </div>
                   <div class="project-item">
                     <h2 data-w-id="13d61aca-b5d4-7ea9-432e-86ea628bce12" style="opacity:0" class="project-bottom-h2">30+</h2>
-                    <div data-w-id="13d61aca-b5d4-7ea9-432e-86ea628bce14" style="opacity:0" class="project-bottom-t">访谈国内外用户/位</div>
+                    <div data-w-id="13d61aca-b5d4-7ea9-432e-86ea628bce14" style="opacity:0" class="project-bottom-t">访谈国内外<br>用户/位</div>
                   </div>
                   <div class="project-item">
                     <h2 data-w-id="15e5d09c-afd0-0610-6165-0152fac2cab9" style="opacity:0" class="project-bottom-h2">250+</h2>
-                    <div data-w-id="15e5d09c-afd0-0610-6165-0152fac2cabb" style="opacity:0" class="project-bottom-t">用户研究报告/页</div>
+                    <div data-w-id="15e5d09c-afd0-0610-6165-0152fac2cabb" style="opacity:0" class="project-bottom-t">用户研究<br>报告/页</div>
                   </div>
                 </div>
               </div>
@@ -694,8 +774,14 @@
               </div>
               <div data-w-id="ebf42e0a-910e-be2e-934e-9677d42025bb" style="opacity:0" class="team-item-right"><img src="images/3D7A0794-1.jpg" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px" srcset="images/3D7A0794-1-p-500.jpg 500w, images/3D7A0794-1-p-800.jpg 800w, images/3D7A0794-1-p-1080.jpg 1080w, images/3D7A0794-1-p-1600.jpg 1600w, images/3D7A0794-1-p-2000.jpg 2000w, images/3D7A0794-1-p-2600.jpg 2600w, images/3D7A0794-1.jpg 3648w" alt="" class="team-img">
                 <div class="team-item-right-bottom-box">
-                  <h3 class="team-bottom-h3">Flores, Juanita</h3>
-                  <div class="team-bottom-t">Scrum  Master</div>
+                  <h3 class="team-bottom-h3">IT&#x27;S ME</h3>
+                  <div class="team-bottom-t">生活图锦</div>
+                </div>
+              </div>
+              <div data-w-id="ebf42e0a-910e-be2e-934e-9677d42025cc" style="opacity:0" class="team-item-right"><img src="images/我艺术.png" loading="lazy" alt="" class="team-img">
+                <div class="team-item-right-bottom-box">
+                  <h3 class="team-bottom-h3">IT&#x27;S ME</h3>
+                  <div class="team-bottom-t">生活图锦</div>
                 </div>
               </div>
             </div>
@@ -822,6 +908,251 @@
       box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12),
                   0 6px 12px rgba(0, 0, 0, 0.08);
     }
+
+    /* ========== MY EXPERIENCES 技能标签动效 ========== */
+    .service-right-text-box-01,
+    .service-right-text-box-02,
+    .service-content-box-wrap {
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .service-right-text-box-01:hover,
+    .service-right-text-box-02:hover,
+    .service-content-box-wrap:hover {
+      background-color: #fff;
+    }
+
+    .service-right-text-box-01:hover .service-right-text,
+    .service-right-text-box-02:hover .service-right-text,
+    .service-content-box-wrap:hover .service-t {
+      color: #111;
+    }
+
+    /* 经历标题保持白色 */
+    .dashboard-title-2 {
+      color: #fff;
+    }
+
+    /* 时间日期粉红色 */
+    .change-log-contact-title-wrap .released-2 {
+      color: #de1d6d;
+    }
+
+    /* Footer标题hover移除颜色变化 */
+    .footer-header:hover {
+      color: #fff;
+      transform: scale(1.02);
+    }
+
+    /* ========== MT PROJECTS 底部数字排版 ========== */
+    .project-bottom-t {
+      text-align: center;
+      line-height: 1.4;
+      min-height: 2.8em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* ========== 全页面文字动效补充 ========== */
+
+    /* About部分文字hover效果 */
+    .about-h2 {
+      transition: all 0.3s ease;
+    }
+
+    .about-h2:hover {
+      color: #de1d6d;
+    }
+
+    /* Contact部分文字hover效果 */
+    .contact-h2 {
+      transition: all 0.3s ease;
+    }
+
+    .contact-h2:hover {
+      letter-spacing: 0.02em;
+    }
+
+    /* Footer标题hover效果 */
+    .footer-header {
+      transition: all 0.3s ease;
+    }
+
+    .footer-header:hover {
+      color: #de1d6d;
+      transform: scale(1.02);
+    }
+
+    /* 服务标题hover效果 */
+    .service-h2 {
+      transition: all 0.3s ease;
+    }
+
+    .service-h2:hover {
+      color: #de1d6d;
+    }
+
+    /* 项目标题hover效果 */
+    .project-left-title {
+      transition: all 0.3s ease;
+    }
+
+    .project-left-title:hover {
+      color: #de1d6d;
+    }
+
+    /* 团队标题hover效果 */
+    .team-top-h2 {
+      transition: all 0.3s ease;
+    }
+
+    .team-top-h2:hover {
+      letter-spacing: 0.02em;
+    }
+
+    /* 项目底部数字动画 */
+    .project-bottom-h2 {
+      transition: all 0.3s ease;
+    }
+
+    .project-item:hover .project-bottom-h2 {
+      color: #de1d6d;
+      transform: scale(1.05);
+    }
+
+    .project-item:hover .project-bottom-t {
+      color: #fff;
+    }
   </style>
+  <script>
+    // Service Component Accordion Interaction
+    document.addEventListener('DOMContentLoaded', function() {
+      const serviceWrappers = document.querySelectorAll('.service-content-wrapper');
+
+      serviceWrappers.forEach(wrapper => {
+        wrapper.addEventListener('click', function() {
+          const descriptionItem = this.querySelector('.service-description-item');
+          const arrow = this.querySelector('.service-arrow');
+          const isOpen = descriptionItem.style.height !== '0px' && descriptionItem.style.height !== '';
+
+          // Close all other items
+          serviceWrappers.forEach(otherWrapper => {
+            if (otherWrapper !== wrapper) {
+              const otherDescription = otherWrapper.querySelector('.service-description-item');
+              const otherArrow = otherWrapper.querySelector('.service-arrow');
+              otherDescription.style.height = '0px';
+              otherArrow.style.transform = 'rotate(0deg)';
+            }
+          });
+
+          // Toggle current item
+          if (isOpen) {
+            descriptionItem.style.height = '0px';
+            arrow.style.transform = 'rotate(0deg)';
+          } else {
+            // Calculate the full height
+            descriptionItem.style.height = 'auto';
+            const fullHeight = descriptionItem.scrollHeight + 'px';
+            descriptionItem.style.height = '0px';
+
+            // Force reflow
+            descriptionItem.offsetHeight;
+
+            // Animate to full height
+            descriptionItem.style.transition = 'height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+            descriptionItem.style.height = fullHeight;
+            arrow.style.transform = 'rotate(180deg)';
+          }
+        });
+      });
+
+      // Add hover effect for image
+      serviceWrappers.forEach(wrapper => {
+        wrapper.addEventListener('mouseenter', function() {
+          const image = this.querySelector('.service-image');
+          if (image) {
+            image.style.transform = 'scale(1.05)';
+          }
+        });
+
+        wrapper.addEventListener('mouseleave', function() {
+          const image = this.querySelector('.service-image');
+          if (image) {
+            image.style.transform = 'scale(1)';
+          }
+        });
+      });
+    });
+  </script>
+  <!-- 纯净原生滚动接管脚本（附带自动关闭菜单功能） -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var menuLinks = document.querySelectorAll('.menu-link[data-target]');
+      // 找到右上角的 MENU 触发按钮
+      var menuToggleBtn = document.querySelector('.heading-menu-box');
+
+      menuLinks.forEach(function(link) {
+          link.addEventListener('click', function(e) {
+              var targetId = this.getAttribute('data-target');
+              var targetElement = document.querySelector(targetId);
+
+              if (targetElement) {
+                  // 1. 模拟点击 MENU 按钮，触发 Webflow 原生的关闭动画
+                  if (menuToggleBtn) {
+                      menuToggleBtn.click();
+                  }
+
+                  // 2. 延迟 500 毫秒，等黑色菜单完全退下去后，再丝滑滚动到底部目标区域
+                  setTimeout(function() {
+                      targetElement.scrollIntoView({
+                          behavior: 'smooth',
+                          block: 'start'
+                      });
+                  }, 500);
+              }
+          });
+      });
+  });
+  </script>
+  <!-- 瞬间归位防御脚本：实现类似关闭弹窗的无缝体验 -->
+  <script>
+  // 1. 全局监听：只要点击了跳转详情页的链接，就悄悄记录当前精确的滚动像素高度
+  document.addEventListener('click', function(e) {
+      var link = e.target.closest('a');
+      // 如果点击的是普通页面跳转链接，而非锚点链接
+      if (link && link.href && link.href.indexOf('.html') !== -1 && link.href.indexOf('#') === -1) {
+          sessionStorage.setItem('exactScrollPosition', window.scrollY);
+      }
+  });
+
+  // 2. 页面重新显示时（包括通过返回按钮从缓存中恢复）
+  window.addEventListener('pageshow', function(e) {
+      var savedScroll = sessionStorage.getItem('exactScrollPosition');
+      // 检查是否是从后退机制回来的
+      var navEntries = performance.getEntriesByType("navigation");
+      var isBack = e.persisted || (navEntries.length > 0 && navEntries[0].type === "back_forward");
+
+      if (savedScroll && isBack) {
+          var exactPos = parseInt(savedScroll, 10);
+
+          // 定义瞬间归位函数（使用老式语法，无任何平滑滚动动画，直接瞬间闪现）
+          var lockPosition = function() {
+              window.scrollTo(0, exactPos);
+          };
+
+          // 立即归位一次
+          lockPosition();
+
+          // 开启"死锁防御"：防止后续 GSAP/Webflow 动画试图重置滚动条
+          // 持续监控 500 毫秒，只要动画敢拉回顶部，就瞬间把它拉回卡片位置
+          var lockInterval = setInterval(lockPosition, 20);
+          setTimeout(function() {
+              clearInterval(lockInterval);
+          }, 500);
+      }
+  });
+  </script>
 </body>
 </html>
